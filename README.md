@@ -1,4 +1,4 @@
-<h1 align="center">Weather Dashboard - Dwains Dashboard Add-on (more_page)</h1> 
+<h1 align="center">Climate Dashboard - Dwains Dashboard Add-on (more_page)</h1> 
 
 
 <p align="center">
