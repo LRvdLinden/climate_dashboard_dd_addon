@@ -8,11 +8,11 @@
   <a href="https://github.com/custom-components/hacs">
     <img src="https://img.shields.io/badge/HACS-Default-orange.svg" />
   </a>
-  <a href="https://github.com/LRvdLinden/weather_dd_addon">
-    <img src="https://img.shields.io/github/v/release/LRvdLinden/weather_dd_addon" />
+  <a href="https://github.com/LRvdLinden/climate_dashboard_dd_addon">
+    <img src="https://img.shields.io/github/v/release/LRvdLinden/climate_dashboard_dd_addon" />
   </a>
-      <a href="https://github.com/LRvdLinden/weather_dd_addon">
-    <img src="https://img.shields.io/github/downloads/LRvdLinden/weather_dd_addon/latest/total?color=purple&label=%20release%20Downloads" />
+      <a href="https://github.com/LRvdLinden/climate_dashboard_dd_addon">
+    <img src="https://img.shields.io/github/downloads/LRvdLinden/climate_dashboard_dd_addon/latest/total?color=purple&label=%20release%20Downloads" />
   </a>
     <a href="https://github.com/LRvdLinden/">
     <img src="https://img.shields.io/github/followers/LRvdLinden?style=social" />
@@ -167,20 +167,20 @@ sun:
 
 ## Installation Add-on
 ---
-- Copy the `weather` folder in to the `dwains-dashboard/addons/more_page` directory.
+- Copy the `climate_dashboard` folder in to the `dwains-dashboard/addons/more_page` directory.
 - Open your `more_page.yaml` file in `dwains-dashboard/configs` and add the following;
 ```yaml
-  - name: Weather
-    main_menu: 'true' #Show this addon in the main navigation bar!
-    icon: fas:cloud-sun-rain
-    path: 'dwains-dashboard/addons/more_page/weather/page.yaml'
+ - name: Climate Dashboard
+   icon: mdi:home-thermometer-outline
+   #main_menu: 'true' #Show this addon in the main navigation bar!
+   path: 'dwains-dashboard/addons/more_page/climate_dashboard/page.yaml'
 ```
 - Reload the theme configuration via Theme Settings
 
 ## Replace the following
 ---
 - If some `sensors` not showing after this manual, please add the correct `sensor` to monitor
-- The dashboard will refresh every 10 minutes. When you want to skip this, delete the code between line 66 till 69
+- If you want to refresh the dashbaodr every 10 minutes, add the following line to the `page.yaml` file
 ```yaml
  - cards:
    Refresh: null
