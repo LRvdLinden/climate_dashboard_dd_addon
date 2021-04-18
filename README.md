@@ -30,9 +30,8 @@
 
 
 <p align="center">
-  <img src="https://image.freepik.com/free-vector/weather-vector-banner_36298-522.jpg" />
+  <img src="https://user-images.githubusercontent.com/77990847/115149631-4124bd80-a065-11eb-98aa-f2694cbdcb79.png" />
 </p>
-
 
 
 ## Prerequisite
@@ -190,7 +189,9 @@ sun:
 
 ## Result
 ---
-![image](https://user-images.githubusercontent.com/77990847/114860224-03693000-9dec-11eb-9878-ece886b44689.png)
+<img width="1262" alt="image" src="https://user-images.githubusercontent.com/77990847/115149558-fc008b80-a064-11eb-9066-c40e01d7e808.png">
+<img width="1251" alt="image" src="https://user-images.githubusercontent.com/77990847/115149623-39fdaf80-a065-11eb-8bd2-39f335f5a888.png">
+
 
 
 
