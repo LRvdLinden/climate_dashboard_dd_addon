@@ -54,6 +54,22 @@
 ```
 - Reload the theme configuration via Theme Settings
 
+## Creat a sensor
+--
+![image](https://user-images.githubusercontent.com/77990847/115536889-88e05a80-a29a-11eb-92a1-ebf78e3e9f85.png)
+
+- To get a base line on a special tempeture, creat the following `platform sensor`
+- If you whant another tempeture then 20, change it to what you want as a base line
+
+```yaml
+  - platform: template
+    sensors:
+      20_sensor:
+        friendly_name: '20'
+        value_template: >
+          20
+```
+
 ## Replace the following
 ---
 - If some `sensors` not showing after this manual, please add the correct `sensor` to monitor
