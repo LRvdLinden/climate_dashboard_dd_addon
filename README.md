@@ -5,9 +5,6 @@
   <a href="https://dwainscheeren.github.io/dwains-lovelace-dashboard/">
     <img src="https://img.shields.io/badge/Dwains%20Dashboard-Default-299ec2.svg" />
   </a>
-  <a href="https://github.com/custom-components/hacs">
-    <img src="https://img.shields.io/badge/HACS-Default-orange.svg" />
-  </a>
   <a href="https://github.com/LRvdLinden/climate_dashboard_dd_addon">
     <img src="https://img.shields.io/github/v/release/LRvdLinden/climate_dashboard_dd_addon" />
   </a>
@@ -27,8 +24,9 @@
 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/77990847/115537460-1fad1700-a29b-11eb-84b9-3067cc81dd01.png" />
+  <img src="https://user-images.githubusercontent.com/77990847/118020623-939e8480-b35a-11eb-9602-fa478f0f0dd2.png" />
 </p>
+
 
 
 
