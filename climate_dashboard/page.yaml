@@ -46,19 +46,18 @@
                 theme: ios-dark-mode-blue-red
                 type: 'custom:mini-graph-card'
               - aspect_ratio: 1/1
-                color: 'rgb(41, 158, 194)'
                 entity: climate.woonkamer
                 icon: 'hass:thermostat'
                 name: Woonkamer
                 show_state: true
                 size: 30%
                 state:
-                  - color: 'var(-- state-icon-active-color)'
-                    value: 'off'
                   - color: 'var(--state-icon-color)'
-                    value: 'on'
+                    value: 'uit'
+                  - color: 'var(--state-icon-active-color)'
+                    value: 'heat'
                   - color: 'var(--state-icon-unavailable-color)'
-                    value: 'unavailable'
+                    value: 'auto'
                 styles:
                   name:
                     - text-transform: uppercase
